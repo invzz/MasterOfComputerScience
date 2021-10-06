@@ -14,10 +14,10 @@ Hoping to unfog my mind while I'm writing I will try to explain what the exercis
 
 two generic complex numbers:
 $$
-\begin{align}
+\begin{align*}
 z &= a+ib, \\
 w &= c+id \\
-\end{align}
+\end{align*}
 $$
 
 #### Ex.1
@@ -88,7 +88,7 @@ $$
 -3 &= \rho\cos(\theta) = 3 \cos \pi + i3\sin(\pi) \\
 4i &= \rho i\sin(\theta) =  \cos\dfrac{\pi}{2} +  i 4\sin\left(\dfrac{\pi}{2}\right)   \\
 -5i &= \rho i\sin(\theta) =  \cos\dfrac{\pi}{2} +  i 5\sin\left(-\dfrac{\pi}{2}\right) \\
-1+i &= \rho(\cos(\theta) + i\sin(\theta)) = \sqrt2 
+1+i &= \rho(\cos(\theta) + i\sin(\theta)) = \sqrt2\left(\cos\dfrac{\pi}{4} + i\sin\dfrac{\pi}{4}\right)
 \end{align*}
 $$
 ****
