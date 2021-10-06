@@ -1,6 +1,6 @@
 # Large Scale Computing
 
-An introductury lecture
+An introductury lecture  *Notes*
 
 ---
 
@@ -81,3 +81,61 @@ Break processing into parts that can be executed concurrently on multiple proces
 - what happens when a task fails?
 - how do we handle distribuited synchronization?
   
+**Dealing with Big data storage is not trivial!** Data volumes are massive, reliably storing PBs of data is a challenge, Disk/hw/network failures.
+
+## Typical Big Data Problem
+
+- iterate over a large number of records
+- extract something of interest from each record
+- shuffle and sort intermediate results
+- aggregate intermediate results
+- generate final output
+
+In general there is a **Map-reduce** approach if you tackle your problem this way.
+
+- Map phase analyze locally the data.
+- Reduce applies a kind of compression before "copying data" into the output stream.
+
+So map reduce is an Divide et conquer methodology to tackle data centric applications.
+
+- Partition a large problem
+- Compute indimpendent sub-problems in parallel
+- Combine intermediate results
+
+---
+
+## High level Architecture
+
+When programming distribuited systems always keep in mind the underlying architecture.
+
+---
+
+The nice feature of Map-Reduce is taht is a very general paradigm that can be used to solve a wide range of problems.
+
+## Relation to functional programming
+
+- functional programming have in-build map and reduce functions
+  - ex caml, python, js, ts, F#, C#
+
+## Data-intensive computing as a Service
+
+Moving among abstraction levels from low to high we have
+
+- bare metal
+- resource manager
+  - k8s, docker ...
+- distribuited storage
+  - BigTabe, Amazon S3 ...
+- Operational stores (sql, spinner, dynamo, cassandra), messagge bus(kafka...), meatada (aws catalog)
+- Cache, other services, analytics engines, map
+- Analytics UI
+  - tableau
+  - fblearner
+
+## Kafka
+
+is a distribuited application for collecting data, filter data, aggregate data
+
+## Spark 
+
+Map-reduce distributed processing application 
