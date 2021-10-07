@@ -1,0 +1,128 @@
+# Distribuited System
+
+---
+
+## What is a Distribuited System
+
+A distribuited system is a network of autonomous computers that are connected using a distribuited middleware.
+
+they help in sharing different resources and capabilities to provide users with a single and coherent network.
+
+Main features
+
+- several autonomous nodes
+- each node has its own local memory
+- nodes communicate with each other with by message passing
+
+---
+
+## Properties
+
+- Location transparency: resource centric
+- Concurrent computation on different nodes
+- No shared memory
+- Absense of a global state
+- Fault tolerance mechanism
+- Hetereogencity in both hw and sw
+
+Designing Distribuited Systems are complex systems that are difficult to design.
+
+---
+
+## Distribuited Systems architectures
+
+- **Client / server** 
+  - server store the state of the application
+- **Three Tier**
+  - Eg. web applications
+- **N-Tier**
+  - they forwars requests to other services Eg. application servers 
+  - Microservices
+- **Peer-to-peer**
+  - responsabilities are spread among the nodes which can serve both as clients and servers. This is the purest truly distributed architecture.
+
+---
+
+## Communication and Coordination
+
+- **Master/Slave**
+  - processes communicate with each other
+- **Data Centric**
+  - communication among processes is done using a shared database.
+
+---
+
+## Synchronous Distribuited Systems
+
+- **Upper bound** on message delivery
+- **Ordered message** delivery
+- **Global clock**
+- **Lock-step** based distribution
+
+---
+
+## Asynchronous Distribuited Systems
+
+- **Clock** may be not accurate, out of sync
+- **Messages** can be delayed for arbitrary period of time
+
+---
+
+## What do we want
+
+- **Interoperability**
+- **Integration**
+- **Flexibility** (modifications at runtime)
+- **Modularity**
+- **Scalability**
+- **Quality** of service and availability
+- **Transparency** w.r.t. data, location,migration, replication, concurrency, failures
+
+---
+
+## Examples
+
+- Network file system (hadoop FS)
+- Distributed Objects (java RSE for instance)
+- Distributed Databases
+- Distribuited Pub / Sub systems
+  - Redis
+  - RabbitMQ
+- Distribuited data acquisition services
+  - kafka
+  - spark
+
+---
+
+## Distributed Algorithms
+
+Distributed algorithms is often modeled as algorithms working on graphs
+
+- Network is the **graph**
+- Process are the **nodes** in the graph
+- **Edges** are the communication links between nodes
+
+---
+
+## Classical problems
+
+- Leader election
+- Mutual exclusion
+- Clock sync
+- Global snapshot
+- Consensus in presence of failures
+- Routing / route maintenance
+
+## Assumptions
+
+- Sync / Async
+- Message loss / Delays
+- Node / Byzantine Faults
+
+---
+
+## Relaxing Algotithms
+
+- Randomized algorithms
+- Programming strategies
+  

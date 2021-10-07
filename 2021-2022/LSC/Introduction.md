@@ -1,6 +1,6 @@
 # Large Scale Computing
 
-An introductury lecture  *Notes*
+An introductury lecture 
 
 ---
 
@@ -139,3 +139,14 @@ is a distribuited application for collecting data, filter data, aggregate data
 ## Spark 
 
 Map-reduce distributed processing application 
+
+## LOOK at!
+
+- Amazon spark
+- Google cloud Platform
+- DataProc
+- Leonardo Labs da vinci 1
+- Engineering dive platform
+- liguria dicitale
+- flairbit senseioty platform
+

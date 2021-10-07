@@ -44,7 +44,7 @@ We are happy when the loss function has "Low values" as close to 0 as we can!
 
 Given a loss function $f$, the input/output relationship $f : X \rightarrow Y $ is the one minimizing the expected risk
 
-$$ f^*=argmin(E(f)) $$ where $$ f \in \mathcal{F} $$ and which is the set of all possible target function.
+$$ f^*=argmin(E(f)) $$ where $$ f \in \mathcal{F} $$which is the set of all possible target function.
 
 ---
 
@@ -55,7 +55,7 @@ For this reason we have to move from expected risk to empirical risk!
 ---
 **Learing algorithm** A learning algorithm allows you to go from $S_n$ (the training set) to $f_n$ (the function we are looking for)
 
-**observation** both training set and target funtion are dependent on data $n$.
+**observation** both training set and target function are dependent on data $n$.
 
 ---
 our goal is to have a function that have $E(f_n)\approx E(f^*)$

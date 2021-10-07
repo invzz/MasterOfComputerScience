@@ -1,6 +1,6 @@
 # Digital Signals and Image Processing
 
-Notes of 2021-2022 class by Andrès Coronado.
+Notes on 2021-2022 class by Andrès Coronado.
 
 ## 1 Complex Numbers
 
