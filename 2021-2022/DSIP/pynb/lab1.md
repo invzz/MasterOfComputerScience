@@ -59,7 +59,27 @@ In the worst case, (the case 3c.) even with a thousand Fourier terms and 3 minut
 
 ## Additional questions
 
+### Q 1
 
+I tried to approximate using fourier series $\sin(x) $ between $ x \in [0, 1]$ with  $k=200$ harmonics. The general shape of the approximation looks good but somehow vertically shifted. In order to find out why I tried to  have a look at the coefficients an/bn  with the following results:
+
+![image-20211022125452713](C:\Users\andres.coronado\Documents\UNI\MasterOfComputerScience\2021-2022\DSIP\pynb\q1)
+
+
+
+Even if it is a simple sinusoid function surplisingly a bad sampling in 0, 1 can lead to a difficult approximations
+
+
+
+### Q 2
+
+This signal is a sinusoid   $\sin(x) + \dfrac{\cos(300x)}{1000}$ summed with a very small "noise" in amplitude but very fast in frequency which look like does not affect the signal reconstruction which captures the general trend in the  $b_1$  coefficient of the Fourier series.
+
+
+
+![image-20211022130925485](C:\Users\andres.coronado\AppData\Roaming\Typora\typora-user-images\image-20211022130925485.png)
+
+ 
 
 ---
 
